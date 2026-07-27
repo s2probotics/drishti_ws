@@ -63,6 +63,8 @@ Step A: Run below
 
 Step B: Run LiDAR's ros driver in a new terminal
 ```
+    cd ~/drishti_ws
+    source install/setup.bash
     ros2 launch unitree_lidar_ros2 launch.py
 ```
 
