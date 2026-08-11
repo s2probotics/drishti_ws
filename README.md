@@ -40,7 +40,7 @@ Clone the repository and colcon build:
 
 ```bash
     cd
-    git clone git@github.com:s2probotics/drishti_ws.git
+    git clone --recurse-submodules git@github.com:s2probotics/drishti_ws.git
     cd drishti_ws
     export VERSION_ROS2="ROS2"  # Important
     export ROS_DISTRO="humble"  # Important
